@@ -1,0 +1,11 @@
+p[href] {
+  color: blue;
+}
+
+[target="_blank"] {
+  color: pink;
+}
+
+[target="_self"] {
+  color: red;
+}
