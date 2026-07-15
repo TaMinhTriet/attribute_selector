@@ -9,3 +9,25 @@ p[href] {
 [target="_self"] {
   color: red;
 }
+
+[title~="me"] {
+  color: green;
+}
+
+[title*="me"] {
+  color: orange;
+}
+
+[title|="pic"] {
+  color: purple;
+  font-size: 50px;
+}
+
+[title^="pic"] {
+  color: yellow;
+}
+
+[title$="5"] {
+  color: brown;
+  font-size: 30px;
+}
